@@ -9,7 +9,7 @@
     <h1>php calculator</h1>
     <form action="calc.php" method="post">
         <label for="num1">Number</label>
-        <input type="number" id="num1" name="user_num1" required="required">
+        <input type="number" step="0.001" id="num1" name="user_num1" required="required">
         <br />
         <label for="mult">Multiply</label>
         <input type="radio" id="mult" name="operation" value="multiply">
@@ -24,7 +24,7 @@
         <input type="radio" id="sub" name="operation" value="subtract">
         <br />
         <label for="num2">Number</label>
-        <input type="number" id="num2" name="user_num2" required="required">
+        <input type="number" step="0.001" id="num2" name="user_num2" required="required">
         <br />
         <button class="cta" type="submit">submit</button>
     </form>
